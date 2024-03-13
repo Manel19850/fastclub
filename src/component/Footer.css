@@ -1,0 +1,21 @@
+.footer {
+    background-color: #333; 
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Padding autour du contenu */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer a {
+    color: white; /* Couleur des liens */
+    margin: 0 15px; /* Espacement entre les liens */
+    text-decoration: none; /* Supprimer le soulignement des liens */
+    font-size: 20px; /* Taille de la police des liens */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; 
+  }
+  
