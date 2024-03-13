@@ -3,10 +3,9 @@ import { useForm } from '@formspree/react';
 import './Accueil.css';
 
 const Accueil = () => {
-  const [state, handleSubmit] = useForm("xpzvlbgj"); // Remplacez "yourFormspreeId" par votre ID Formspree réel
-  const lienDePaiement = "https://www.linkedin.com/in/manel-jouini/"; // Remplacez ceci par l'URL réelle de votre page de paiement
-
-  // Redirige vers le lien de paiement après la soumission du formulaire
+  const [state, handleSubmit] = useForm("xpzvlbgj"); 
+  const lienDePaiement = "https://www.linkedin.com/in/manel-jouini/"; 
+  
   if (state.succeeded) {
     window.location.href = lienDePaiement;
   }

@@ -1,8 +1,8 @@
 .footer {
     background-color: #333; 
-    color: white; /* Couleur du texte */
-    text-align: center; /* Centrage du texte */
-    padding: 10px 0; /* Padding autour du contenu */
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
     position: absolute;
     bottom: 0;
     width: 100%;
