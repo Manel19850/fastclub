@@ -6,13 +6,13 @@ import { faYoutube, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-i
 function Footer() {
   return (
     <footer className="footer">
-      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.youtube.com/@sophienR" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faYoutube} />
       </a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.instagram.com/sophien.rr/" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} />
       </a>
-      <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.tiktok.com/@sophien.r" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faTiktok} />
       </a>
     </footer>
